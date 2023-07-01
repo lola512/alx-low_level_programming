@@ -8,11 +8,12 @@
 int main(void)
 {
 	int i, l;
+
 	for (i = 0; i < 100; i++)
 	{
 		for (l = 0; l < 100; l++)
 		{
-			if (i > l)
+			if (i < l)
 			{
 				putchar((i / 10) + 48);
 				putchar((i % 10) + 48);
